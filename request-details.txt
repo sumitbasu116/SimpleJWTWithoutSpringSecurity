@@ -1,0 +1,7 @@
+GET http://localhost:8080/jwt
+Header 
+pass-key: sample1
+user-name: Sumit
+
+GET http://localhost:8080/validate
+token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJTdW1pdCIsImV4cCI6MTYxOTAxODY1OSwiaWF0IjoxNjE5MDE4NTk5fQ.K4zbVhi8K9kWOZp0hUykoutxR6YAqCaQrVBDDiaazxq5rhRtJV8hqgwmBznX9ZgbzG56llBCdFFm8bisZ99qGA
